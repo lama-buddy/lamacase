@@ -1,0 +1,27 @@
+{
+  "name": "lamacase",
+  "version": "0.1.0",
+  "description": "Converts text to camelcase",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha spec/index.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lama-buddy/lamacase.git"
+  },
+  "keywords": [
+    "camel",
+    "case"
+  ],
+  "author": "Lama Chandrasena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lama-buddy/lamacase/issues"
+  },
+  "homepage": "https://github.com/lama-buddy/lamacase#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
